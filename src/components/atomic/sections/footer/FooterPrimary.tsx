@@ -7,10 +7,10 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import P from '../../atoms/typography/P';
 import routes from '@/routes';
-import SvgInstagram from '@/assets/svgs/instagram';
-import SvgWhatsApp from '@/assets/svgs/whatsapp';
-import SvgLinkedIn from '@/assets/svgs/linkedin';
-import SvgTelegram from '@/assets/svgs/telegram';
+import SvgInstagram from '@/public/svgs/instagram';
+import SvgWhatsApp from '@/public/svgs/whatsapp';
+import SvgLinkedIn from '@/public/svgs/linkedin';
+import SvgTelegram from '@/public/svgs/telegram';
 import { useTheme } from 'next-themes';
 
 const FooterPrimary = () => {
@@ -52,10 +52,10 @@ const FooterPrimary = () => {
             </div>
           </div>
         </div>
-        <div className="flex w-full justify-between items-center border-t-[1px] border-gray-300 py-4">
+        {/* <div className="flex w-full justify-between items-center border-t-[1px] border-gray-300 py-4">
           <H5 className="w-full !font-medium">{t('FollowUs')} :</H5>
           
-        </div>
+        </div> */}
       </div>
     </div>
   );

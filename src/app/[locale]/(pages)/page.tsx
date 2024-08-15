@@ -1,3 +1,5 @@
+
+"use client"
 import FooterPrimary from '@/components/atomic/sections/footer/FooterPrimary';
 import LayoutPrimary from '@/components/atomic/sections/layouts/LayoutPrimary';
 import NavbarPrimary from '@/components/atomic/sections/navbars/NavbarPrimary';
