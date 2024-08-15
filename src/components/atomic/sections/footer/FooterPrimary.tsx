@@ -23,20 +23,13 @@ const FooterPrimary = () => {
     [
       { path: routes.Home.root, label: 'Home' },
       { path: routes.ContactUs.root, label: 'ContactUs' },
-      { path: routes.Brokers.root, label: 'Brokers' },
     ],
     [
       { path: routes.AboutUS.root, label: 'AboutUs' },
-      { path: routes.Subscription.root, label: 'Subscription' },
     ],
   ];
 
-  const socialIcons = [
-    { component: SvgInstagram, name: 'Instagram' },
-    { component: SvgTelegram, name: 'Telegram' },
-    { component: SvgWhatsApp, name: 'WhatsApp' },
-    { component: SvgLinkedIn, name: 'LinkedIn' },
-  ];
+  
 
   return (
     <div className="w-full flex justify-center bg-bg-primary dark:bg-[#040D12]  p-4 shadow border-t-[1px]">
@@ -61,20 +54,7 @@ const FooterPrimary = () => {
         </div>
         <div className="flex w-full justify-between items-center border-t-[1px] border-gray-300 py-4">
           <H5 className="w-full !font-medium">{t('FollowUs')} :</H5>
-          <div className="md:gap-8 gap-4 flex w-full">
-            {socialIcons.map((icon, index) => {
-              const IconComponent = icon.component;
-              return (
-                <IconComponent
-                  color={theme == 'light' ? '#0F0F0F' : theme == 'dark' ? '#fff' : '#0F0F0F'}
-                  key={index + icon.name}
-                  width={30}
-                  height={30}
-                  className="cursor-pointer"
-                />
-              );
-            })}
-          </div>
+          
         </div>
       </div>
     </div>

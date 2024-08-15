@@ -15,8 +15,6 @@ const navItems = [
   { label: 'Home', route: routes.Home.root },
   { label: 'ContactUs', route: routes.ContactUs.root },
   { label: 'AboutUs', route: routes.AboutUS.root },
-  { label: 'Subscription', route: routes.Subscription.root },
-  { label: 'Brokers', route: routes.Brokers.root },
 ];
 
 const NavbarPrimary: React.FC = () => {

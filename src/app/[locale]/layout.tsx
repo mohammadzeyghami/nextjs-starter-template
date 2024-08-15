@@ -24,7 +24,7 @@ export default async function LocaleLayout({ children, params: { locale } }: { c
       <body className={cn(inter.className, 'overflow-x-hidden font-iranYekan')}>
         <NextIntlClientProvider messages={messages}>
           <DirectionProvider>
-            <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+            <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
               {children}
             </ThemeProvider>
           </DirectionProvider>
