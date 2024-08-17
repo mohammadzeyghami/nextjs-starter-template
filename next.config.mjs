@@ -12,5 +12,4 @@ const withPWA = nextPwa({
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
-// ترکیب پلاگین‌های PWA و Next Intl
 export default withPWA(withNextIntl(nextConfig));
