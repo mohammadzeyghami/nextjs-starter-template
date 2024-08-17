@@ -8,8 +8,8 @@ import { cn } from '@/lib/utils';
 import P from '../../atoms/typography/P';
 import { Button } from '../../molecules/buttons/Button';
 import { useTheme } from 'next-themes';
-import SvgMoon from '@/public/svgs/moon';
-import SvgSun from '@/public/svgs/sun';
+import SvgMoon from '@/assets/svgs/moon';
+import SvgSun from '@/assets/svgs/sun';
 
 const navItems = [
   { label: 'Home', route: routes.Home.root },

@@ -7,10 +7,10 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import P from '../../atoms/typography/P';
 import routes from '@/routes';
-import SvgInstagram from '@/public/svgs/instagram';
-import SvgWhatsApp from '@/public/svgs/whatsapp';
-import SvgLinkedIn from '@/public/svgs/linkedin';
-import SvgTelegram from '@/public/svgs/telegram';
+import SvgInstagram from '@/assets/svgs/instagram';
+import SvgWhatsApp from '@/assets/svgs/whatsapp';
+import SvgLinkedIn from '@/assets/svgs/linkedin';
+import SvgTelegram from '@/assets/svgs/telegram';
 import { useTheme } from 'next-themes';
 
 const FooterPrimary = () => {
